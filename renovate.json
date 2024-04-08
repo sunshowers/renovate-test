@@ -10,11 +10,10 @@
     },
     {
         "matchManagers": ["cargo"],
-        "matchCurrentValue": "/^\\d+\\.\\d+$/",
+        "matchCurrentValue": "/^\\d+(\\.\\d+)?$/",
         "rangeStrategy": "update-lockfile"
     }
   ],
-  "bumpVersion": "patch",
   "enabledManagers": [
     "cargo"
   ]
