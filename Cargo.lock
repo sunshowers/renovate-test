@@ -143,13 +143,14 @@ name = "renovate-test"
 version = "0.1.0"
 dependencies = [
  "chrono",
+ "syn",
 ]
 
 [[package]]
 name = "syn"
-version = "2.0.58"
+version = "2.0.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "44cfb93f38070beee36b3fef7d4f5a16f27751d94b187b666a5cc5e9b0d30687"
+checksum = "55ee2415bee46ba26eac9cd8e52966995c46bf0e842b6304eb8fcf99826548ed"
 dependencies = [
  "proc-macro2",
  "quote",
