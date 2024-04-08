@@ -6,14 +6,7 @@
   "packageRules": [
     {
         "matchManagers": ["cargo"],
-        "matchCurrentValue": "/^0\\.\\d+$/",
-        "matchUpdateTypes": ["patch"],
-        "rangeStrategy": "update-lockfile"
-    },
-    {
-        "matchManagers": ["cargo"],
-        "matchCurrentValue": "/^[1-9]\\d*(\\.\\d+)?$/",
-        "matchUpdateTypes": ["minor", "patch"],
+        "matchCurrentValue": "/^\\d+(\\.\\d+)?$/",
         "rangeStrategy": "update-lockfile"
     }
   ],
