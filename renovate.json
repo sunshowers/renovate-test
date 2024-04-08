@@ -9,10 +9,10 @@
         "matchCurrentValue": "/^0\\.\\d+$/",
         "matchUpdateTypes": ["patch"],
         "rangeStrategy": "update-lockfile"
-    }
+    },
     {
         "matchManagers": ["cargo"],
-        "matchCurrentValue": "/^\\d+(\\.\\d+)?$/",
+        "matchCurrentValue": "/^[1-9]\\d*(\\.\\d+)?$/",
         "matchUpdateTypes": ["minor", "patch"],
         "rangeStrategy": "update-lockfile"
     }
