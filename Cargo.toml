@@ -5,5 +5,5 @@ edition = "2021"
 
 [dependencies]
 chrono = "0.4.34"
-syn = "2.0"
+syn = "1.0"
 camino = "1"
