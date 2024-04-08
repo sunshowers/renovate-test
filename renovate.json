@@ -3,8 +3,19 @@
   "dependencyDashboard": true,
   "dependencyDashboardApproval": false,
   "dependencyDashboardAutoclose": false,
+  "packageRules": [
+    {
+        "matchManagers": ["cargo"],
+        "matchCurrentValue": "/^\\d+\\.\\d+/",
+        "rangeStrategy": "update-lockfile"
+    },
+    {
+        "matchManagers": ["cargo"],
+        "matchCurrentValue": "/^\\d+\\.\\d+\\d+/",
+        "rangeStrategy": "bump"
+    }
+  ],
   "bumpVersion": "patch",
-  "rangeStrategy": "update-lockfile",
   "enabledManagers": [
     "cargo"
   ]
