@@ -6,13 +6,12 @@
   "packageRules": [
     {
         "matchManagers": ["cargo"],
-        "matchCurrentValue": "/^\\d+\\.\\d+$/",
-        "rangeStrategy": "update-lockfile"
+        "rangeStrategy": "bump"
     },
     {
         "matchManagers": ["cargo"],
-        "matchCurrentValue": "/^\\d+\\.\\d+\\d+$/",
-        "rangeStrategy": "bump"
+        "matchCurrentValue": "/^\\d+\\.\\d+$/",
+        "rangeStrategy": "update-lockfile"
     }
   ],
   "bumpVersion": "patch",
